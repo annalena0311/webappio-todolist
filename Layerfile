@@ -16,5 +16,5 @@ RUN npm install || true
 RUN BACKGROUND npm start || python3 -m http.server 3000
 
 # Create a unique link to share the app in this runner.
-# Every time someone clicks the link, we'll wake up this staging server.
+# Every time someone clicks the link, webapp.io will wake up this staging server.
 EXPOSE WEBSITE http://localhost:3000

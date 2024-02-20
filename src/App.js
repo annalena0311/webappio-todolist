@@ -1,5 +1,3 @@
-// App.js
-
 import React, { useState } from 'react';
 import './App.css'; // Import the CSS file
 
@@ -27,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <h1>TODO List</h1>
+      <p>Stay organized and get things done with a simple TODO list app. Easily manage your tasks and boost your productivity</p>
       <div className="input-container">
         <input
           type="text"
